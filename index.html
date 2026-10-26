@@ -1,0 +1,700 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Maison Élixir - Haute Parfumerie Artisanale. Explore handcrafted luxury fragrances, rare oud extraits, and celestial floral elixirs created in Grasse, France.">
+  <title>MAISON ÉLIXIR | Haute Parfumerie Artisanale</title>
+  
+  <!-- Favicon -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>✦</text></svg>">
+  
+  <!-- CSS Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ========================================================================
+       ANNOUNCEMENT MARQUEE BAR
+       ======================================================================== -->
+  <aside class="announcement-bar" aria-label="Store Announcements">
+    <div class="marquee-track">
+      <div class="marquee-item">
+        <span>Complimentary Hand-Engraving on 100ml Flacons</span>
+        <span class="divider">✦</span>
+        <span>Free Worldwide Express Shipping on Orders Over $150</span>
+        <span class="divider">✦</span>
+        <span>Cold-Macerated for 90 Days in Grasse, France</span>
+        <span class="divider">✦</span>
+        <span>Receive 15% Off Your First Elixir with Code: <strong>LUXURY15</strong></span>
+        <span class="divider">✦</span>
+        <span>Each Order Includes 2 Complimentary Discovery Vials</span>
+        <span class="divider">✦</span>
+      </div>
+      <div class="marquee-item">
+        <span>Complimentary Hand-Engraving on 100ml Flacons</span>
+        <span class="divider">✦</span>
+        <span>Free Worldwide Express Shipping on Orders Over $150</span>
+        <span class="divider">✦</span>
+        <span>Cold-Macerated for 90 Days in Grasse, France</span>
+        <span class="divider">✦</span>
+        <span>Receive 15% Off Your First Elixir with Code: <strong>LUXURY15</strong></span>
+        <span class="divider">✦</span>
+        <span>Each Order Includes 2 Complimentary Discovery Vials</span>
+        <span class="divider">✦</span>
+      </div>
+    </div>
+  </aside>
+
+  <!-- ========================================================================
+       SITE HEADER / NAVIGATION
+       ======================================================================== -->
+  <header class="site-header">
+    <div class="container nav-container">
+      <!-- Mobile Menu Toggle -->
+      <button class="mobile-menu-toggle" id="mobile-menu-toggle" aria-label="Open Mobile Menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <!-- Brand Identity -->
+      <a href="#" class="brand-logo" aria-label="Maison Élixir Home">
+        <span class="monogram">MAISON ÉLIXIR</span>
+        <span class="tagline">Haute Parfumerie • Paris</span>
+      </a>
+
+      <!-- Desktop Nav Links -->
+      <nav aria-label="Main Navigation">
+        <ul class="nav-links">
+          <li><a href="#collections">Creations</a></li>
+          <li><a href="#pyramid">The Pyramid</a></li>
+          <li><a href="#atelier">The Atelier</a></li>
+          <li><a href="#testimonials">Reviews</a></li>
+        </ul>
+      </nav>
+
+      <!-- Right Navigation Actions -->
+      <div class="nav-actions">
+        <!-- Fragrance Finder Quiz Trigger -->
+        <button class="finder-trigger-btn trigger-quiz-btn" title="Discover Your Scent">
+          <span>✦</span>
+          <span>Scent Finder</span>
+        </button>
+
+        <!-- Wishlist Button -->
+        <button class="action-btn" id="wishlist-toggle-btn" title="View Saved Wishlist" aria-label="Wishlist">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
+          </svg>
+          <span class="action-badge" id="wishlist-badge-count" style="display:none;">0</span>
+        </button>
+
+        <!-- Cart Drawer Button -->
+        <button class="action-btn" id="cart-toggle-btn" title="View Shopping Bag" aria-label="Shopping Bag">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path>
+            <line x1="3" y1="6" x2="21" y2="6"></line>
+            <path d="M16 10a4 4 0 0 1-8 0"></path>
+          </svg>
+          <span class="action-badge" id="cart-badge-count" style="display:none;">0</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ========================================================================
+       HERO EDITORIAL SECTION
+       ======================================================================== -->
+  <section class="hero-section">
+    <div class="container hero-grid">
+      <div class="hero-content">
+        <span class="eyebrow">Haute Parfumerie Artisanale</span>
+        <h1>The Architecture of <br><em>Silent Allure</em></h1>
+        <p class="hero-description">
+          Conceived in Paris and hand-extracted in the sun-drenched floral terraces of Grasse. 
+          Rare oud, dewy Centifolia roses, and warm ambergris compounded at exceptional extrait concentrations for an indelible sillage.
+        </p>
+
+        <div class="hero-cta-group">
+          <a href="#collections" class="btn-primary">
+            Explore Masterpieces
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <line x1="5" y1="12" x2="19" y2="12"></line>
+              <polyline points="12 5 19 12 12 19"></polyline>
+            </svg>
+          </a>
+          <button class="btn-secondary trigger-quiz-btn">
+            <span>✦</span> Find Your Signature Scent
+          </button>
+        </div>
+
+        <div class="hero-stats">
+          <div class="hero-stat-item">
+            <span class="stat-num">30%</span>
+            <span class="stat-label">Extrait Concentration</span>
+          </div>
+          <div class="hero-stat-item">
+            <span class="stat-num">14+ Hrs</span>
+            <span class="stat-label">Magnetic Longevity</span>
+          </div>
+          <div class="hero-stat-item">
+            <span class="stat-num">100%</span>
+            <span class="stat-label">Artisan Macerated</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-visual">
+        <div class="hero-image-wrapper">
+          <img src="https://images.unsplash.com/photo-1594035910387-fea47794261f?auto=format&fit=crop&w=800&q=85" alt="Obsidian Oud Luxury Perfume">
+          
+          <div class="hero-floating-card">
+            <span class="eyebrow" style="margin-bottom:0.2rem; font-size:0.65rem;">Icon of the House</span>
+            <h4 class="floating-card-title">Obsidian Oud</h4>
+            <p class="floating-card-notes">Cambodian Agarwood • Smoked Saffron • Damascena Petals</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       PRESS & EDITORIAL ACCOLADES STRIP
+       ======================================================================== -->
+  <section class="brand-accolades" aria-label="Editorial Press Quotes">
+    <div class="container">
+      <div class="accolades-grid">
+        <div class="accolade-item">
+          <blockquote class="accolade-quote">"The pinnacle of modern olfactory couture."</blockquote>
+          <span class="accolade-source">VOGUE FRANCE</span>
+        </div>
+        <div class="accolade-item">
+          <blockquote class="accolade-quote">"Hypnotic, nuanced, and utterly irreplaceable."</blockquote>
+          <span class="accolade-source">HARPER’S BAZAAR</span>
+        </div>
+        <div class="accolade-item">
+          <blockquote class="accolade-quote">"Redefining the architecture of luxury fragrance."</blockquote>
+          <span class="accolade-source">ELLE MAGAZINE</span>
+        </div>
+        <div class="accolade-item">
+          <blockquote class="accolade-quote">"An unapologetically bold and magnetic skin-scent."</blockquote>
+          <span class="accolade-source">GQ INTERNATIONAL</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       OLFACTORY PYRAMID MASTERCLASS SECTION
+       ======================================================================== -->
+  <section class="pyramid-section" id="pyramid">
+    <div class="container">
+      <div class="section-header">
+        <span class="eyebrow">The Science & Symphony</span>
+        <h2>The Olfactory Pyramid</h2>
+        <p>A master perfume is not a static scent—it is an evolving theatrical performance that unfolds over 24 hours upon your skin.</p>
+      </div>
+
+      <div class="pyramid-grid">
+        <div class="pyramid-visual">
+          <!-- Top Tier -->
+          <div class="pyramid-level active">
+            <div class="pyramid-level-header">
+              <h3 class="pyramid-level-title">
+                <span>✦</span> Top Notes • The Ephemeral Overture
+              </h3>
+              <span class="pyramid-level-time">First 15 Minutes</span>
+            </div>
+            <p class="pyramid-level-desc">
+              Light volatile molecules that provide your initial sensory revelation. They spark the imagination before softly surrendering to the heart.
+            </p>
+            <div class="pyramid-ingredients">
+              <span class="pyramid-ingredient-tag">Calabrian Bergamot</span>
+              <span class="pyramid-ingredient-tag">Moroccan Saffron</span>
+              <span class="pyramid-ingredient-tag">Crisp Neroli</span>
+              <span class="pyramid-ingredient-tag">Pink Pepper</span>
+            </div>
+          </div>
+
+          <!-- Heart Tier -->
+          <div class="pyramid-level">
+            <div class="pyramid-level-header">
+              <h3 class="pyramid-level-title">
+                <span>✦</span> Heart Notes • The Soul & Character
+              </h3>
+              <span class="pyramid-level-time">2 to 4 Hours</span>
+            </div>
+            <p class="pyramid-level-desc">
+              The true harmonic identity of the fragrance. Rich floral absolutes and exotic spices that emerge as the top notes mellow.
+            </p>
+            <div class="pyramid-ingredients">
+              <span class="pyramid-ingredient-tag">Grasse Centifolia Rose</span>
+              <span class="pyramid-ingredient-tag">Jasmine Sambac</span>
+              <span class="pyramid-ingredient-tag">Smoked Frankincense</span>
+              <span class="pyramid-ingredient-tag">Tuscan Leather</span>
+            </div>
+          </div>
+
+          <!-- Base Tier -->
+          <div class="pyramid-level">
+            <div class="pyramid-level-header">
+              <h3 class="pyramid-level-title">
+                <span>✦</span> Base Notes • The Lingering Sillage
+              </h3>
+              <span class="pyramid-level-time">8 to 24+ Hours</span>
+            </div>
+            <p class="pyramid-level-desc">
+              Heavy, hypnotic resins, aged woods, and crystalline musks that fuse intimately with your body heat, leaving a signature imprint.
+            </p>
+            <div class="pyramid-ingredients">
+              <span class="pyramid-ingredient-tag">Cambodian Agarwood (Oud)</span>
+              <span class="pyramid-ingredient-tag">Australian Sandalwood</span>
+              <span class="pyramid-ingredient-tag">Bourbon Vanilla</span>
+              <span class="pyramid-ingredient-tag">Warm Ambergris</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="pyramid-info">
+          <span class="eyebrow">Artisan Extraction</span>
+          <h3>Formulated with Noble Extracts, Never Synthetic Short-Cuts</h3>
+          <p>
+            Our master noses spend up to three years perfecting each formula. We harvest our roses before sunrise in May and source our precious agarwood from ethical micro-distilleries.
+          </p>
+          <ul class="pyramid-feature-list">
+            <li>
+              <span class="bullet">✦</span>
+              <div>
+                <strong style="color:var(--text-primary); display:block;">90-Day Cold Maceration</strong>
+                Allowed to age peacefully in temperature-controlled oak casks to marry the oils harmoniously.
+              </div>
+            </li>
+            <li>
+              <span class="bullet">✦</span>
+              <div>
+                <strong style="color:var(--text-primary); display:block;">30% Pure Perfume Concentration</strong>
+                Significantly higher than typical department-store eau de parfums, ensuring rich projection without alcohol sharpness.
+              </div>
+            </li>
+            <li>
+              <span class="bullet">✦</span>
+              <div>
+                <strong style="color:var(--text-primary); display:block;">Hand-Cut French Crystal Glass</strong>
+                Bottled in heavy, weighted obsidian flacons fitted with custom magnetic zamac closures.
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       PRODUCT CATALOG & FILTER SECTION
+       ======================================================================== -->
+  <section class="catalog-section" id="collections">
+    <div class="container">
+      <div class="section-header">
+        <span class="eyebrow">Haute Parfumerie Collection</span>
+        <h2>Curated Masterpieces</h2>
+        <p>Explore our limited-run olfactory extraits. Select your preferred volume and personalize your flacon.</p>
+      </div>
+
+      <!-- Controls & Filter Toolbar -->
+      <div class="catalog-controls">
+        <!-- Search, Gender Tabs & Sort Dropdown -->
+        <div class="search-and-sort">
+          <!-- Live Search Bar -->
+          <div class="search-box">
+            <svg class="search-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="11" cy="11" r="8"></circle>
+              <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+            </svg>
+            <input type="text" id="search-perfumes" placeholder="Search by note (oud, rose, vanilla) or name...">
+          </div>
+
+          <div class="filter-sort-group">
+            <!-- Gender Selector -->
+            <div class="gender-filter" role="tablist">
+              <button class="gender-btn active" data-gender="all">All</button>
+              <button class="gender-btn" data-gender="Unisex">Unisex</button>
+              <button class="gender-btn" data-gender="For Her">For Her</button>
+              <button class="gender-btn" data-gender="For Him">For Him</button>
+            </div>
+
+            <!-- Sort By Select -->
+            <select class="sort-select" id="sort-perfumes" aria-label="Sort Fragrances">
+              <option value="featured">Sort: Featured</option>
+              <option value="rating">Sort: Highest Rated</option>
+              <option value="price-low">Price: Low to High</option>
+              <option value="price-high">Price: High to Low</option>
+            </select>
+          </div>
+        </div>
+
+        <!-- Olfactory Family Horizontal Filter Pills -->
+        <div class="olfactory-pills" id="olfactory-pills-container">
+          <!-- Injected via JavaScript -->
+        </div>
+      </div>
+
+      <!-- Products Grid -->
+      <div class="products-grid" id="products-grid">
+        <!-- Injected via JavaScript -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       FRAGRANCE FINDER QUIZ CALLOUT
+       ======================================================================== -->
+  <section class="quiz-callout-section">
+    <div class="container">
+      <div class="quiz-callout-content">
+        <span class="eyebrow">Complimentary Bespoke Consultation</span>
+        <h2>Unveil Your Signature Olfactory Sillage</h2>
+        <p>
+          Selecting a fragrance is deeply personal. Take our curated 60-second olfactory consultation 
+          to match your mood, aesthetic, and raw material desires with the perfect extrait.
+        </p>
+        <button class="btn-primary trigger-quiz-btn">
+          <span>✦</span> Begin The Fragrance Finder
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       ATELIER & HERITAGE SECTION
+       ======================================================================== -->
+  <section class="atelier-section" id="atelier">
+    <div class="container">
+      <div class="atelier-grid">
+        <div class="atelier-image-collage">
+          <img src="https://images.unsplash.com/photo-1519669011783-4eaa95fa1b7d?auto=format&fit=crop&w=1000&q=80" alt="Botanical Distillation Flasks" class="atelier-img-main">
+          <div class="atelier-badge-box">
+            <span class="year">1928</span>
+            <p class="badge-desc">Founded in Grasse, France • Certified Haute Parfumerie</p>
+          </div>
+        </div>
+
+        <div class="atelier-content">
+          <span class="eyebrow">Our Legacy</span>
+          <h2>The Craft of Living Art</h2>
+          <p>
+            Established near the historic jasmine fields of the Côte d’Azur, Maison Élixir honors nearly a century 
+            of unhurried craftsmanship. Unlike mass-manufactured fragrances, every drop of our perfume is formulated 
+            with reverence for time.
+          </p>
+          <p>
+            We practice ancient cold-enfleurage and supercritical carbon-dioxide extraction to capture the freshest, 
+            most authentic scent profiles possible from fragile botanical blooms.
+          </p>
+
+          <div class="atelier-pillars">
+            <div class="pillar-item">
+              <h4>Ethical Botanicals</h4>
+              <p>Sustainably cultivated in partner cooperatives across Provence, Madagascar, and Calabria.</p>
+            </div>
+            <div class="pillar-item">
+              <h4>Zero Animal Testing</h4>
+              <p>Cruelty-free certified, using plant-based and synthetic nature-identical musk substitutes.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       CLIENT REVIEWS & TESTIMONIALS
+       ======================================================================== -->
+  <section class="testimonials-section" id="testimonials">
+    <div class="container">
+      <div class="section-header">
+        <span class="eyebrow">Patrons of the House</span>
+        <h2>Voices of Silent Allure</h2>
+        <p>Discover real impressions from collectors and connoisseurs worldwide.</p>
+      </div>
+
+      <div class="testimonials-grid">
+        <div class="testimonial-card">
+          <div class="testimonial-stars">★★★★★</div>
+          <p class="testimonial-text">
+            "Obsidian Oud is breathtaking. It develops from a spicy saffron prickle into the most velvet Cambodian oud I have ever experienced. It lasted well past 16 hours on my cashmere coat."
+          </p>
+          <div class="testimonial-author">
+            <div class="author-avatar">CV</div>
+            <div class="author-meta">
+              <h5>Camille Vivienne</h5>
+              <span>Verified Patron • Paris, France</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="testimonial-stars">★★★★★</div>
+          <p class="testimonial-text">
+            "Vanille Céleste is definitely not your standard sweet bakery vanilla. It is smoky, dark, and sensual. I get compliments from strangers every single time I wear it."
+          </p>
+          <div class="testimonial-author">
+            <div class="author-avatar">MS</div>
+            <div class="author-meta">
+              <h5>Marcus Sterling</h5>
+              <span>Verified Patron • London, UK</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="testimonial-stars">★★★★★</div>
+          <p class="testimonial-text">
+            "The packaging alone feels like holding an architectural sculpture. The heavy magnetic cap, the hand-engraved initials, and the complimentary discovery samples make this pure luxury."
+          </p>
+          <div class="testimonial-author">
+            <div class="author-avatar">AL</div>
+            <div class="author-meta">
+              <h5>Aria Laurent</h5>
+              <span>Verified Patron • New York, USA</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       VIP CLUB / NEWSLETTER
+       ======================================================================== -->
+  <section class="newsletter-section">
+    <div class="container">
+      <div class="newsletter-box">
+        <span class="eyebrow">Cercle Privé</span>
+        <h2>Enter The Inner Sanctum</h2>
+        <p>
+          Subscribe to receive private invitations to limited-edition vintage harvests, 
+          complimentary flacon engraving, and an instant <strong>15% privilege code</strong> on your inaugural order.
+        </p>
+
+        <form class="newsletter-form" id="newsletter-form">
+          <input type="email" placeholder="Enter your email address..." required aria-label="Email Address">
+          <button type="submit">Join Cercle Privé</button>
+        </form>
+        <span class="newsletter-note">By subscribing you agree to our privacy charter. Unsubscribe at any time.</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       FOOTER
+       ======================================================================== -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-col">
+          <div class="brand-logo" style="margin-bottom:1rem;">
+            <span class="monogram" style="font-size:1.5rem;">MAISON ÉLIXIR</span>
+            <span class="tagline">Haute Parfumerie</span>
+          </div>
+          <p>
+            Maison Élixir elevates fragrance creation into high art. Formulated with rare natural absolutes, 
+            bottled in recyclable glass flacons, and dispatched globally from Paris.
+          </p>
+        </div>
+
+        <div class="footer-col">
+          <h5>Collections</h5>
+          <ul class="footer-links">
+            <li><a href="#collections">Extraits de Parfum</a></li>
+            <li><a href="#collections">Woody & Amber Series</a></li>
+            <li><a href="#collections">Grasse Floral Harvest</a></li>
+            <li><a href="#collections">Discovery Discovery Sets</a></li>
+            <li><a href="#collections">Private Reserve</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h5>Client Care</h5>
+          <ul class="footer-links">
+            <li><a href="#collections">Flacon Engraving Service</a></li>
+            <li><a href="#collections">Shipping & Global Concierge</a></li>
+            <li><a href="#collections">Returns & Exchanges</a></li>
+            <li><a href="#collections">Fragrance Preservation Guide</a></li>
+            <li><a href="#collections">Authenticity Guarantee</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h5>Our Flagship Boutiques</h5>
+          <ul class="boutique-list">
+            <li class="boutique-item">
+              <strong>PARIS</strong>
+              <span>14 Place Vendôme, 75001 Paris</span>
+            </li>
+            <li class="boutique-item">
+              <strong>LONDON</strong>
+              <span>28 Old Bond Street, Mayfair, London</span>
+            </li>
+            <li class="boutique-item">
+              <strong>NEW YORK</strong>
+              <span>680 Madison Avenue, New York, NY</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>© 2026 MAISON ÉLIXIR PARIS. All rights reserved. Haute Parfumerie.</div>
+        <div style="display:flex; gap:1.5rem;">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
+          <a href="#">Ethics & Sustainability</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ========================================================================
+       DRAWERS, MODALS & FLOATING WIDGETS
+       ======================================================================== -->
+
+  <!-- Backdrop for side drawers -->
+  <div class="drawer-backdrop" id="drawer-backdrop"></div>
+
+  <!-- Cart Drawer -->
+  <aside class="cart-drawer" id="cart-drawer" aria-label="Shopping Cart">
+    <div class="drawer-header">
+      <h3>
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path>
+          <line x1="3" y1="6" x2="21" y2="6"></line>
+          <path d="M16 10a4 4 0 0 1-8 0"></path>
+        </svg>
+        Your Fragrance Bag
+      </h3>
+      <button class="drawer-close-btn" id="close-cart-btn" aria-label="Close Bag">✕</button>
+    </div>
+
+    <!-- Free shipping progress bar -->
+    <div class="shipping-bar-wrapper">
+      <div class="shipping-bar-text">
+        <span id="shipping-progress-msg">Add $150 for Free Worldwide Shipping</span>
+      </div>
+      <div class="shipping-progress-bg">
+        <div class="shipping-progress-fill" id="shipping-progress-fill"></div>
+      </div>
+    </div>
+
+    <!-- Cart items list container -->
+    <div class="cart-items-container" id="cart-items-list">
+      <!-- Items dynamically populated via JS -->
+    </div>
+
+    <!-- Cart Footer & Calculations -->
+    <div class="drawer-footer">
+      <!-- Voucher Box -->
+      <div class="coupon-box">
+        <input type="text" id="coupon-input" placeholder="Promo code (e.g. LUXURY15)">
+        <button id="apply-coupon-btn">Apply</button>
+      </div>
+
+      <div class="cart-summary-line">
+        <span>Subtotal</span>
+        <span id="cart-subtotal">$0.00</span>
+      </div>
+      <div class="cart-summary-line" id="cart-discount-row" style="display:none; color:var(--gold-primary);">
+        <span>VIP Discount</span>
+        <span id="cart-discount-amt">-$0.00</span>
+      </div>
+      <div class="cart-summary-line">
+        <span>Express Delivery</span>
+        <span id="cart-shipping-amt">Complimentary</span>
+      </div>
+      <div class="cart-summary-line total-line">
+        <span>Estimated Total</span>
+        <span id="cart-total" class="gold-text">$0.00</span>
+      </div>
+
+      <button class="checkout-btn" id="proceed-checkout-btn">
+        <span>Proceed to Concierge Checkout</span>
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <line x1="5" y1="12" x2="19" y2="12"></line>
+          <polyline points="12 5 19 12 12 19"></polyline>
+        </svg>
+      </button>
+    </div>
+  </aside>
+
+  <!-- Wishlist Drawer -->
+  <aside class="wishlist-drawer" id="wishlist-drawer" aria-label="Saved Fragrances">
+    <div class="drawer-header">
+      <h3>
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="#D4AF37" stroke="#D4AF37" stroke-width="2">
+          <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
+        </svg>
+        Saved Elixirs
+      </h3>
+      <button class="drawer-close-btn" id="close-wishlist-btn" aria-label="Close Wishlist">✕</button>
+    </div>
+
+    <div class="cart-items-container" id="wishlist-items-list">
+      <!-- Items dynamically populated via JS -->
+    </div>
+  </aside>
+
+  <!-- Quick View Modal -->
+  <div class="modal-overlay" id="quick-view-modal">
+    <div class="modal-container">
+      <button class="modal-close-btn" id="close-qv-btn" aria-label="Close Quick View">✕</button>
+      <div id="qv-container">
+        <!-- Quick View details populated via JS -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Fragrance Finder Quiz Modal -->
+  <div class="modal-overlay" id="fragrance-quiz-modal">
+    <div class="modal-container" style="max-width:720px;">
+      <button class="modal-close-btn" id="close-quiz-btn" aria-label="Close Finder">✕</button>
+      <div id="quiz-content-area">
+        <!-- Quiz questions & results injected via JS -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Concierge Checkout Simulation Modal -->
+  <div class="modal-overlay" id="checkout-modal">
+    <div class="modal-container" style="max-width:820px;">
+      <button class="modal-close-btn" id="close-checkout-btn" aria-label="Close Checkout">✕</button>
+      <div id="checkout-container">
+        <!-- Checkout Form & Receipt injected via JS -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Mobile Navigation Drawer -->
+  <div class="mobile-nav-drawer" id="mobile-nav-drawer">
+    <div class="brand-logo">
+      <span class="monogram">MAISON ÉLIXIR</span>
+      <span class="tagline">Paris</span>
+    </div>
+    <ul>
+      <li><a href="#collections" onclick="document.getElementById('drawer-backdrop').click()">Creations</a></li>
+      <li><a href="#pyramid" onclick="document.getElementById('drawer-backdrop').click()">The Pyramid</a></li>
+      <li><a href="#atelier" onclick="document.getElementById('drawer-backdrop').click()">The Atelier</a></li>
+      <li><a href="#testimonials" onclick="document.getElementById('drawer-backdrop').click()">Reviews</a></li>
+    </ul>
+    <button class="btn-primary trigger-quiz-btn" style="font-size:0.75rem; padding:0.8rem;" onclick="document.getElementById('drawer-backdrop').click()">
+      ✦ Scent Finder
+    </button>
+  </div>
+
+  <!-- Floating Toast Notifications Container -->
+  <div class="toast-container" id="toast-container"></div>
+
+  <!-- JavaScript Modules -->
+  <script src="js/products.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
